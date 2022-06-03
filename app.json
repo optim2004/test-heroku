@@ -1,6 +1,6 @@
 {
-  "name": "Podskok&Co",
-  "description": "Voprosik na kontrole.",
+  "name": "TestHerokuApp",
+  "description": "TestHerokuApp",
   "keywords": ["V2ray", "Shadowsocks", "V2Ray-plugin"],
   "env": {
      "ENCRYPT": {
@@ -9,7 +9,7 @@
     },
      "PASSWORD": {
       "description": "Password",
-      "value": "5c301bb8-6c77-41a0-a606-4ba11bbab084"
+      "value": "2d58574b-8999-495d-94a5-61f0570c3a00"
     },
 
      "V2_Path": {
@@ -19,7 +19,7 @@
 
      "SS_DNS": {
       "description": "DNS server(s) to use instead of one provided by your cloud server.",
-      "value": "1.1.1.1,1.0.0.1"
+      "value": "9.9.9.9,1.1.1.1"
     },
 
      "AppName": {
@@ -29,17 +29,17 @@
 
     "QR_Path": {
        "description": "Password-protected path to page with ss:// configuration link and a QR code. Cannot be the same as V2_Path. If the AppName variable is no, this variable has no effect",
-       "value": "/getconfig"
+       "value": "/smartconfig"
      },
 
     "QR_User": {
        "description": "QR_Path page auth username (http basic auth).",
-       "value": "anonimus"
+       "value": "root"
      },
 
     "QR_Pass": {
        "description": "QR_Path page auth password (http basic auth).",
-       "value": "c16f96e0-f752-4b64-a812-fcf2da707fc5"
+       "value": "81275f51-1b05-4db5-b80e-46729fcc35aa"
      },
 
     "Proxy_Path": {
