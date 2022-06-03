@@ -1,7 +1,6 @@
 {
   "name": "TestHerokuApp",
   "description": "TestHerokuApp",
-  "keywords": ["V2ray", "Shadowsocks", "V2Ray-plugin"],
   "env": {
      "ENCRYPT": {
       "description": "Encryption method.",
